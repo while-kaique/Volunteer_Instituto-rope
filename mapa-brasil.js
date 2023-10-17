@@ -8,8 +8,9 @@ document.querySelectorAll('path').forEach((el) =>{
     event.target.className = ("enabled");
     description.classList.add("active");
     if ( el.id == "Minas Gerais" || el.id == "Bahia" || el.id == "Amapá" || el.id == "Pernambuco" || el.id == "São Paulo") {
+
       description.classList.add("logo");
-      description.innerHTML = 'Clique e veja mais sobre nossas filiais'
+      description.innerHTML = event.target.id + ' - Clique e veja mais sobre nossas filiais'
     } else {
       description.innerHTML = event.target.id; 1 
     }
