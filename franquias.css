@@ -1,0 +1,18 @@
+h1.inicio {
+    font-size: 3rem;
+    width: fit-content;
+    margin: 50px auto 15px 11.5vw;
+}
+
+.row.sonhos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 992px){
+    .col-lg-8 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
