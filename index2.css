@@ -1078,7 +1078,10 @@ img.gallery-img {
 
 .mb-3,
 .my-3 {
-    margin-bottom: 1.5rem !important
+    margin-bottom: 1.5rem
+}
+.mb-3.mapa {
+    margin-bottom: 0px;
 }
 
 .ml-3,
@@ -3450,7 +3453,7 @@ a.vdi:not(:hover) {
     padding: 50px;
     margin: auto;
     flex-wrap: wrap;
-    background-color: rgba(243, 243, 243, 0.432);
+    background-color: rgb(255, 255, 255);
   }
   .container-mapa h1 {
     width: 100%;
@@ -3459,6 +3462,7 @@ a.vdi:not(:hover) {
   }
   svg.mapa{
     width: 60%;
+    padding: 30px;
   }
   path.mapa {
     fill: rgb(200, 165, 233);
@@ -3519,5 +3523,19 @@ a.vdi:not(:hover) {
   .sul.mapa,
   .nordeste.mapa {
     fill: #8E6EAB;
+  }
+
+  p#parag {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.644);
+  }
+
+  .container-mapa div.subt-mapa {
+    padding: 0px 0px;
+  }
+  .container-mapa div.tit-mapa {
+    color: rgba(0, 0, 0, 0.753);
   }
 
