@@ -16,3 +16,44 @@ h1.inicio {
         max-width: 100%;
     }
 }
+
+.mb-3-ini {
+    margin: 50px 0px 15px 8vw;
+}
+
+.content-title {
+    color: #F0A117;
+}
+
+.justify-content-center.pessoa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+h2.pessoa {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div.big.pessoa-nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pessoa-sonho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+div.pessoa-sonho p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
