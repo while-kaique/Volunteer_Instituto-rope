@@ -729,6 +729,9 @@ img.gallery-img {
     text-transform: uppercase;
     line-height: 1.2
 }
+.content-title.mapa {
+    color: #f1a013;
+}
 
 .content-title {
     font-weight: 700
@@ -1075,7 +1078,10 @@ img.gallery-img {
 
 .mb-3,
 .my-3 {
-    margin-bottom: 1.5rem !important
+    margin-bottom: 1.5rem
+}
+.mb-3.mapa {
+    margin-bottom: 0px;
 }
 
 .ml-3,
@@ -3440,30 +3446,31 @@ a.vdi:not(:hover) {
 /* SVG MAPA BRASIL */
 .container-mapa{
     display: flex;
+    justify-content: space-around;
     width: 100%;
     align-items: center;
     justify-content: center;
     padding: 50px;
     margin: auto;
     flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
   }
   .container-mapa h1 {
     width: 100%;
     text-align: center;
-    color: #595e66;
-    text-shadow: 1px 1px .5px rgba(0, 0, 0, 0.39);
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
   svg.mapa{
     width: 60%;
+    padding: 30px;
   }
   path.mapa {
-    fill: #48ff00;
+    fill: rgb(200, 165, 233);
     stroke: rgba(0, 0, 0, 0.466);
     stroke-width: 1px;
   }
   path.mapa:hover {
-    fill: #dd9417;
+    fill: rgb(210, 181, 236);
     stroke: rgba(0, 0, 0, 0.719);
     stroke-width: 2px;
     transition: fill 0.2s;
@@ -3485,9 +3492,8 @@ a.vdi:not(:hover) {
   }
 
   .tooltip-mapa.logo {
-    background: #8E6EAB;
-    color: #ffffff;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
+    background:  rgb(224, 192, 255);
+    color: rgb(43, 43, 43);
     font-weight: 500;
   }
 
@@ -3508,16 +3514,7 @@ a.vdi:not(:hover) {
     border-top: 10px solid white;
   }
   .tooltip-mapa.logo:after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    width: 0;
-    height: 0;
-    margin-left: -10px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #8E6EAB;
+    border-top: 10px solid rgb(215, 173, 255);
   }
 
   .norte.mapa,
@@ -3525,6 +3522,20 @@ a.vdi:not(:hover) {
   .centro-oeste.mapa,
   .sul.mapa,
   .nordeste.mapa {
-    fill: #479c25;
+    fill: #8E6EAB;
+  }
+
+  p#parag {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.644);
+  }
+
+  .container-mapa div.subt-mapa {
+    padding: 0px 0px;
+  }
+  .container-mapa div.tit-mapa {
+    color: rgba(0, 0, 0, 0.753);
   }
 
