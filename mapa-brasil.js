@@ -7,7 +7,7 @@ document.querySelectorAll('path').forEach((el) =>{
   el.addEventListener('mouseover', (event) => {
     event.target.className = ("enabled");
     description.classList.add("active");
-    if ( el.id == "Minas Gerais" || el.id == "Bahia" || el.id == "Amapá" || el.id == "Pernambuco" || el.id == "São Paulo") {
+    if ( el.id == "Minas Gerais" || el.id == "Bahia" || el.id == "Amapá" || el.id == "Pernambuco" || el.id == "São Paulo" || el.id == "Rio de Janeiro") {
 
       description.classList.add("logo");
       description.innerHTML = event.target.id + ' - Clique e veja mais sobre nossas filiais'
