@@ -1076,6 +1076,10 @@ img.gallery-img {
     margin-top: 1.5rem !important
 }
 
+.mt-3 img {
+    border: .5px solid rgba(0, 0, 0, 0.178);
+}
+
 .mb-3,
 .my-3 {
     margin-bottom: 1.5rem
@@ -3173,7 +3177,8 @@ a.badge-warning:hover {
 
 
 .bg-light:not(.toast).vdi {
-    background-color: #42464C !important
+    background-color: #F7F8F8 !important;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.733);
 }
 
 .bg-light.toast {
@@ -3421,12 +3426,14 @@ section.vdi {
 
 h1.vdi {
     margin: 0px;
-    color: rgb(255, 255, 255);
+    color: #737A84;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 p.vdi.text {
     font-size: 1.5rem;
-    color: #E4E4E4;
+    color: #737A84;
 }
 
 p.vdi.desc {
